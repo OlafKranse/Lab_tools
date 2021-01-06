@@ -13,6 +13,6 @@ check_sanger_seq.py -> checks all the fasta files in a given folder against a fi
 
 batch_normalise_for_sequencing.py -> tells you how much water you need to add to DNA sample to get it normalised.
 
-
+finding_all_unique_sequences_in_fasta.py -> make a file of unqiue possible sequences in a given range 
 
 
