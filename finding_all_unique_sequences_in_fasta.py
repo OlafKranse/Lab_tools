@@ -48,7 +48,4 @@ for i in range(additional_ranges):
             writeme = "".join(input_range)
             if (analyze_gc(writeme) >= 39) and (analyze_gc(writeme) <= 55) :
                 if (analyze_number_of_repeats(writeme)) <= 3:
-                    #print(writeme)
-                    #print(analyze_gc(writeme))
-                    #print(analyze_number_of_repeats(writeme))
                     f.write(writeme+ "\n")
