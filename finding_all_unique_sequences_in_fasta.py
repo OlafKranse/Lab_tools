@@ -33,13 +33,8 @@ def analyze_number_of_repeats(text):
         numbers.append(i-1)
     return(max(numbers))
 
-
-
 alphabets = "atcg"
-
-
 input_range = enumerate(map(int, range(sequence_size)))
-
 
 for i in range(additional_ranges):
     sequence_size += 1
